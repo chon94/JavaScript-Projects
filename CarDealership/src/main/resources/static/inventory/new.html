@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/inventory_new.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="custom-padding">
+    <nav>
+      <div class="logo">Logo</div>
+      <ul class="menu-area">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="new.html">New Inventory</a></li>
+        <li><a href="used.html">Used Inventory</a></li>
+        <li><a href="/specials.html">Specials</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/admin/admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+  <main>
+    <section>
+      <h1 class="title">New Vehicles</h1>
+      <div class="search-container">
+        <h3 class="search-title">Quick Search</h3>
+        <div class="filter-container-wrap">
+          <input id="query" type="text" class="filter-query" placeholder="Enter make, model, or year" />
+          <div id="price-filter" class="filter-container">
+            <label for="price-filter">Price</label>
+            <select id="price-min">
+              <option value="0.1">No Min</option>
+              <option value="2500">2500</option>
+              <option value="10000">10000</option>
+              <option value="25000">25000</option>
+            </select>
+            <select id="price-max">
+              <option value="300000">No Max</option>
+              <option value="100000">100000</option>
+              <option value="75000">75000</option>
+              <option value="50000">50000</option>
+            </select>
+          </div>
+
+          <div id="year-filter" class="filter-container">
+            <label for="year-filter">Year</label>
+            <select id="year-min">
+              <option value="1999">No Min</option>
+            </select>
+            <select id="year-max">
+              <option value="2050">No Max</option>
+            </select>
+          </div>
+        </div>
+        <button class="filter-button btn btn-primary" onclick="getNewVehicles()">
+          Search
+        </button>
+      </div>
+    </section>
+    <section>
+      <h1 class="title">Search Results</h1>
+      <div id="results-container" class="results"></div>
+    </section>
+  </main>
+
+  <div id="newCarContainer">
+  </div>
+
+  <main>
+        <section class="newInventories"></section>
+      </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="/js/inventory_new.js"></script>
+</body>
+
+</html>

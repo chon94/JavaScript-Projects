@@ -1,0 +1,29 @@
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+#error {
+  color: red;
+}
+
+body{
+  background-color: rgb(42, 84, 175);
+}
+
+.memory-card {
+  margin: 10px;
+  /* height: max-content; */
+  width: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+h1{
+color: green;
+}
+
+#cards {
+  margin-top: 25px;
+  background-color: black;
+}

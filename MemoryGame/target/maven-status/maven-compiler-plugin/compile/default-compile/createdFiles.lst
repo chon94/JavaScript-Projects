@@ -1,0 +1,9 @@
+corbos\memorygame\models\Card.class
+corbos\memorygame\models\Game.class
+corbos\memorygame\models\MoveRequest.class
+corbos\memorygame\service\GameCache.class
+corbos\memorygame\models\MoveStatus.class
+corbos\memorygame\models\MoveResponse.class
+corbos\memorygame\controllers\GameController.class
+corbos\memorygame\models\GameStartResponse.class
+corbos\memorygame\App.class

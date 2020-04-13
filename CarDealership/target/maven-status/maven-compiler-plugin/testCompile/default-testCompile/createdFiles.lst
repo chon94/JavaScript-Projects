@@ -1,0 +1,10 @@
+com\mycompany\cardealership\data\PurchaseRepositoryTest.class
+com\mycompany\cardealership\service\VehicleServiceTest.class
+com\mycompany\cardealership\data\SpecialRepositoryTest.class
+com\mycompany\cardealership\data\UserRepositoryTest.class
+com\mycompany\cardealership\repos\VehicleRepositoryTest.class
+com\mycompany\cardealership\data\ModelRepositoryTest.class
+com\mycompany\cardealership\data\VehicleRepositoryTest.class
+com\mycompany\cardealership\service\PurchaseServiceTest.class
+com\mycompany\cardealership\data\ContactMessageRepositoryTest.class
+com\mycompany\cardealership\data\MakeRepositoryTest.class
